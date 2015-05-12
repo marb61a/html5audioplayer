@@ -1,0 +1,68 @@
+* {
+    margin : 0;
+    padding : 0;
+    border : none;
+    outline : none;
+}
+
+body{
+    font-family : arial;
+    font-size : 13px;
+    line-height : 1.5em;
+    color : #fff;
+    background: #e570e7; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #e570e7 0%, #c85ec7 47%, #a849a3 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e570e7), color-stop(47%,#c85ec7), color-stop(100%,#a849a3)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+#container{
+    width: 330px;
+    min-height: 400px;
+    background: #333;
+    overflow: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 8px -9px #333;
+}
+
+#audio-image{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+#audio-image .cover{
+    width: 100%;
+}
+
+#audio-info{
+    text-align: center;
+}
+
+input#volume{
+    width: 95%;
+    margin-left: 2%;
+    -webkit-appearance: none !important;
+    background: #ccc;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+#volume ::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    background: url(../images/knob.png) no-repeat ;
+    height: 12px;
+    width: 12px;
+}
